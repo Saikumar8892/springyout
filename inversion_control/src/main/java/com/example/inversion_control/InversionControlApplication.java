@@ -15,6 +15,8 @@ public class InversionControlApplication {
 		
 		Mobiles obj = context.getBean("getIphoneObject",Mobiles.class);
 		obj.getModelAndColor();
+		Mobiles obj1 = context.getBean("getOnePlusObject",Mobiles.class);
+		obj1.getModelAndColor();
 	}
 
 }

@@ -2,6 +2,7 @@
 <section name="Workbench">
 	<section name="MavenProjectImportWizardPage">
 		<list key="rootDirectory">
+			<item value="C:\javafsd\springyout\mvc"/>
 			<item value="C:\javafsd\springyou\inversion_control"/>
 			<item value="C:\javafsd\springyou"/>
 		</list>

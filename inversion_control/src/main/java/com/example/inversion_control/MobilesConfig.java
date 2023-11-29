@@ -7,11 +7,16 @@ import org.springframework.context.annotation.Configuration;
 public class MobilesConfig {
 
 	@Bean
-	public Mobiles getOnePlusObject() {
-		return new OnePlus();
+	public Color getColor() {
+		return new Color();
 	}
 	@Bean
-	public Mobiles getIphoneObject() {
-		return new Iphone();
+	public Mobiles getOnePlusObject(Color getColor) {
+		return new OnePlus(getColor);
 	}
+	@Bean
+	public Mobiles getIphoneObject(Color getColor) {
+		return new Iphone(getColor);
+	}
+	
 }
